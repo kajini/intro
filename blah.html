@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+p.monospace {
+    font-family: "Courier New", Times, monospace;
+}
+
+</style>
+</head>
+<body`>`
+
+<h1> </h1>
+<center><p class="monospace">intro,</p></center>
+<p class="monospace"></p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet"href="intro.css">
+  <script src="intro.js"></script>
+</head>
+<body>
+<center>  <button onclick="ACTIVITIES()" class="button button2">Activities</button>
+ <button onclick="Settings()" class="button button2">Settings</button>
+ <button onclick="FOOD()" class="button button2">Food</button>
+ <button onclick="Direct Messages" class="button button2">Direct Messages</button></center>
+
+ </body>
+ </html>
+
+
+
+
+
+
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="C:\Users\GWC\Desktop\intro\intro.css">
+<style>
+<center>.mySlides {display:none;}</center>
+</style>
+<body>
+
+<center><div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="image1.jpg" style="width:100%">
+  <img class="mySlides" src="image2.jpg" style="width:100%">
+  <img class="mySlides" src="image3.jpg" style="width:100%">
+</div></center>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 1000); // Change image every 1 seconds
+}
+</script>
+
+</body>
+</html>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer / About Section -->
+<footer class="w3-light-grey w3-padding-64 w3-center" id="about">
+<footer class="w3-light-grey w3-padding-64 w3-center" id="about">
+  <center><h2>About</h2></center>
+<center>  <img src="/w3images/boy.jpg" class="w3-image w3-padding-20" width="300" height="300"></center>
+  <form style="margin:auto;width:60%" action="/action_page.php" target="_blank">
+  <center><p>Intro, the world's first interactive app made for introverts and and those who are disabled. Our team of extroverts wanted to help those with less social confidence get out, try new things, and even meet new people both similar and different.</p></center>
+    <div class="w3-section">
+      <label><b>Name</b></label>
+      <input class="w3-input w3-border" type="text" required name="Name">
+    </div>
+    <div class="w3-section">
+      <label><b>Email</b></label>
+      <input class="w3-input w3-border" type="text" required name="Email">
+    </div>
+    <div class="w3-section">
+      <label><b>Message</b></label>
+      <input class="w3-input w3-border" required name="Message">
+    </div>
+    <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
+  </form>
+  <br>
+</footer>
+
+</body>
+</html>
