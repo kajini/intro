@@ -10,10 +10,7 @@ function FOOD(){
 function ACTIVITIES(){
 
 }
-function survey(){
-   //document.getElementById("content").innerHTML='<object type="text/html" data="survey.html" ></object>'
-   window.open("survey.html");
-}
+
 function getdata(){
   /*
     'name:'
@@ -76,7 +73,7 @@ if(document.getElementById("movies and TV").checked == true){fun.push("movies an
 if(document.getElementById("people watching").checked == true){fun.push("people watching")}
 if(document.getElementById("collection").checked == true){fun.push("collection")}
 if(document.getElementById("baking").checked == true){fun.push("baking")}
-if(document.getElementById("knitting").checked == true){fun.push("knitting")} 
+if(document.getElementById("knitting").checked == true){fun.push("knitting")}
 if(document.getElementById("Gardining").checked == true){fun.push("Gardining")}
 
 var allergies = []
